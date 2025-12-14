@@ -1,5 +1,25 @@
 # Getting Started with Create React App
 
+## Positivus Landing — Project Notes
+
+- Tech: React + Tailwind CSS. Space Grotesk was added as the site font.
+- Assets: `src/assets` contains original SVGs and new `p1..p6.png` / `p1..p6.svg` used for services and team avatars.
+- Changes made: replaced many placeholder icons with the provided SVG/PNG assets, added team avatars, and compacted layout spacing for a denser look.
+- Current status: most assets and layout changes are complete; remaining high-priority task — run the dev server and fix any startup/build errors so the page can be visually verified.
+
+## Local development (quick)
+
+Install dependencies and start the dev server:
+
+```bash
+npm install
+npm start
+```
+
+If `npm start` fails, check the terminal output for build errors. A common next step is to run `npm run build` to see compilation errors, or inspect the browser console for runtime issues.
+
+Want to help? Open a new issue or PR with any fixes or visual tweaks; assets live in `src/assets` and the landing component is `src/PositivusLanding.jsx`.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
